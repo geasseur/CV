@@ -24,20 +24,27 @@ h1{
   border-style: solid;
   border-width: 3px;
   border-color: black;
+  width: 60%;
 }
 
 #titreCompétence{
-  border-style: solid;
-  border-width: 3px;
-  border-color: black;
-  margin-left:75%;
+  margin-left:40%;
   display: inline-block;
 }
 
 #compétence{
+  margin-top:-130px;
   border-style: solid;
   border-width: 3px;
   border-color: black;
   display: inline-block;
   float: right;
+}
+
+ul{
+  list-style-type:none;
+}
+
+#perso{
+  margin-left: 3%;
 }
