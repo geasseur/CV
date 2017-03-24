@@ -1,7 +1,14 @@
+body{
+  background-color: #ffefc3;
+}
+
 header{
   border-style: solid;
   border-width: 3px;
   border-color: black;
+  box-shadow: 3px 3px 5px 4px black;
+  background-image: url(imgEntête.jpg);
+  background-size: 100% 170%
 }
 img{
   margin-top: -50px;
@@ -15,13 +22,26 @@ h1{
   padding-left: 20%;
 }
 
-#coordonné{
+/*#blocCoord{
   display: inline-block;
   text-align: right;
   margin-top: -50px;
   padding-bottom: 30px;
   margin-left: 60%;
+  background-color: white;
+  height: 200px;
+  width: 200px;
+}*/
+
+#coordonné{
+  display: inline-block;
+  text-align: right;
+  margin-top: -50px;
+  padding-bottom: 30px;
+  margin-left: 58%;
   font-size: 16px;
+  color:#950000;
+  font-weight: bold;
 }
 
 .titre{
@@ -29,6 +49,7 @@ h1{
   border-width: 3px;
   border-color: black;
   width: 60%;
+  box-shadow: 3px 3px 5px 4px black;
 }
 
 #titreCompétence{
@@ -43,6 +64,7 @@ h1{
   border-color: black;
   display: inline-block;
   float: right;
+  box-shadow: 3px 3px 5px 4px black;
 }
 
 ul{
